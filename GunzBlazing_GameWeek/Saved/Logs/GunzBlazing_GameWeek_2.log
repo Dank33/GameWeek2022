@@ -1895,6 +1895,7 @@ Test
 [2022.09.07-21.08.30:140][ 19]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.058
 [2022.09.07-21.18.30:828][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
 [2022.09.07-21.18.30:829][814]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.060
+<<<<<<< Updated upstream
 [2022.09.07-21.21.46:778][425]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
 [2022.09.07-21.21.46:786][425]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
 [2022.09.07-21.21.46:798][425]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
@@ -2690,3 +2691,5 @@ Test
 [2022.09.07-21.22.02:220][ 31]LogD3D12RHI: ~FD3D12DynamicRHI
 [2022.09.07-21.22.02:499][ 31]LogExit: Exiting.
 [2022.09.07-21.22.02:511][ 31]Log file closed, 09/07/22 17:22:02
+=======
+>>>>>>> Stashed changes

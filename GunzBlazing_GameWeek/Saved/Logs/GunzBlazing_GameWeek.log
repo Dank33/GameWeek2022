@@ -1268,3 +1268,540 @@ Recommended: 516.25
 [2022.09.07-20.36.17:631][740]AssetCheck: New page: Asset Save: multiple assets
 [2022.09.07-20.36.17:631][740]LogContentValidation: Display: Validating Skeleton /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1_Skeleton.GW_23_GunN1_Skeleton
 [2022.09.07-20.36.17:631][740]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/FPWeapon/Mesh/HomeMade/GunN1/MI_GunN1_3.MI_GunN1_3
+[2022.09.07-20.37.53:182][ 28]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.09.07-20.37.55:092][130]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+[2022.09.07-20.37.55:092][130]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.37.56:625][130]LogSlate: Took 0.015282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.07-20.37.58:383][196]LogViewport: Scene viewport resized to 839x814, mode Windowed.
+[2022.09.07-20.38.00:733][326]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.07-20.38.38:529][519]BlueprintLog: New page: Compile BP_Rifle
+[2022.09.07-20.38.38:758][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.09.07-20.38.38:861][520]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.07-20.38.41:940][691]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.09.07-20.38.42:080][691]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.07-20.38.42:082][691]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.07-20.38.42:082][691]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.07-20.38.42:090][691]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.07-20.38.42:090][691]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.07-20.38.42:090][691]LogWorldPartition: Display: GetPartitionedActors took 8 ms
+[2022.09.07-20.38.42:090][691]LogWorldPartition: Display: GenerateStreaming took 9 ms
+[2022.09.07-20.38.42:132][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.07-20.38.42:153][691]PIE: New page: PIE session: FirstPersonMap (7 sept. 2022 12 h 38 min 42 s)
+[2022.09.07-20.38.42:170][691]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.09.07-20.38.42:170][691]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.09.07-20.38.42:176][691]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.07-20.38.42:219][691]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.07-20.38.42:221][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045498s)
+[2022.09.07-20.38.42:221][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.046190s)
+[2022.09.07-20.38.42:222][691]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.38.42:223][691]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.09.07-20.38.42:224][691]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.07-20.38.42:224][691]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.07-20.38.42:231][691]LogWorldPartition: Display: WorldPartition initialize took 6 ms
+[2022.09.07-20.38.42:231][691]LogPlayLevel: PIE: World Init took: (0.009440s)
+[2022.09.07-20.38.42:262][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.09.07-20.38.42:315][691]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.09.07-20.38.42:315][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.07-20.38.42:315][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.07-20.38.42:315][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.07-20.38.42:315][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.07-20.38.42:315][691]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.07-20.38.42:315][691]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.07-20.38.42:315][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.07-20.38.42:316][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.07-20.38.42:317][691]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.07-20.38.42:317][691]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.07-20.38.42:317][691]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.07-20.38.42:323][691]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.07-20.38.42:399][691]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.07-20.38.42:399][691]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.07-20.38.42:399][691]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.07-20.38.42:399][691]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.07-20.38.42:400][691]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.09.07-20.38.42:400][691]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.09.07-20.38.42:401][691]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.09.07-20.38.42:401][691]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.09.07-20.38.42:401][691]LogInit: FAudioDevice initialized.
+[2022.09.07-20.38.42:401][691]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2022.09.07-20.38.42:444][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.07-20.38.42:455][691]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.07-20.38.42:457][691]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2022.09.07-16.38.42
+[2022.09.07-20.38.42:475][691]LogWorld: Bringing up level for play took: 0.019730
+[2022.09.07-20.38.42:480][691]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2022.09.07-20.38.42:893][691]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.09.07-20.38.42:893][691]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.07-20.38.42:898][691]PIE: Server logged in
+[2022.09.07-20.38.42:900][691]PIE: Play in editor total start time 0,941 seconds.
+[2022.09.07-20.38.43:051][691]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2022.09.07-20.39.03:247][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.07-20.39.03:247][845]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.07-20.39.03:248][845]LogSlate: Window 'GunzBlazing_GameWeek Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.09.07-20.39.03:252][845]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.39.03:335][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.39.03:350][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.07-20.39.03:420][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.39.03:453][845]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.07-20.39.03:464][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.09.07-20.39.03:465][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.09.07-20.39.03:565][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.09.07-20.39.03:604][846]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.09.07-20.39.05:434][954]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.09.07-20.39.05:491][954]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.07-20.39.05:491][954]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.07-20.39.05:492][954]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.07-20.39.05:492][954]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.07-20.39.05:492][954]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.07-20.39.05:492][954]LogWorldPartition: Display: GetPartitionedActors took 49 us
+[2022.09.07-20.39.05:492][954]LogWorldPartition: Display: GenerateStreaming took 326 us
+[2022.09.07-20.39.05:492][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.07-20.39.05:492][954]PIE: New page: PIE session: FirstPersonMap (7 sept. 2022 12 h 39 min 05 s)
+[2022.09.07-20.39.05:492][954]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.07-20.39.05:498][954]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.07-20.39.05:498][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005742s)
+[2022.09.07-20.39.05:498][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005789s)
+[2022.09.07-20.39.05:498][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.39.05:498][954]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.09.07-20.39.05:499][954]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.07-20.39.05:499][954]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.07-20.39.05:500][954]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.09.07-20.39.05:500][954]LogPlayLevel: PIE: World Init took: (0.002101s)
+[2022.09.07-20.39.05:601][954]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.09.07-20.39.05:603][954]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.09.07-20.39.05:603][954]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.07-20.39.05:603][954]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.07-20.39.05:603][954]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.07-20.39.05:603][954]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.07-20.39.05:603][954]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.07-20.39.05:603][954]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.07-20.39.05:603][954]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.07-20.39.05:603][954]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.07-20.39.05:604][954]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.07-20.39.05:604][954]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.07-20.39.05:604][954]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.07-20.39.05:607][954]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.07-20.39.05:649][954]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.07-20.39.05:649][954]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.07-20.39.05:649][954]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.07-20.39.05:649][954]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.07-20.39.05:650][954]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.09.07-20.39.05:650][954]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.09.07-20.39.05:651][954]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.09.07-20.39.05:651][954]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.09.07-20.39.05:652][954]LogInit: FAudioDevice initialized.
+[2022.09.07-20.39.05:652][954]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2022.09.07-20.39.05:688][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.07-20.39.05:688][954]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.07-20.39.05:691][954]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2022.09.07-16.39.05
+[2022.09.07-20.39.05:691][954]LogWorld: Bringing up level for play took: 0.002807
+[2022.09.07-20.39.05:693][954]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2022.09.07-20.39.05:695][954]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.09.07-20.39.05:695][954]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.07-20.39.05:698][954]PIE: Server logged in
+[2022.09.07-20.39.05:700][954]PIE: Play in editor total start time 0,25 seconds.
+[2022.09.07-20.39.05:711][954]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2022.09.07-20.39.48:083][310]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.091462 > MaxSimulationTimeStep (0.050) for 'BP_FirstPersonCharacter_C_0', movement 'Walking'
+[2022.09.07-20.39.56:996][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.07-20.39.56:996][831]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.07-20.39.56:996][831]LogSlate: Window 'GunzBlazing_GameWeek Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.09.07-20.39.57:005][831]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.39.57:006][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.39.57:026][831]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.07-20.39.57:034][831]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.39.57:089][831]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.07-20.39.57:090][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.09.07-20.39.57:092][831]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.09.07-20.39.57:128][831]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2022.09.07-20.39.57:327][832]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.09.07-20.40.06:723][392]LogViewport: Scene viewport resized to 1013x902, mode Windowed.
+[2022.09.07-20.40.06:760][394]LogViewport: Scene viewport resized to 977x902, mode Windowed.
+[2022.09.07-20.40.06:808][396]LogViewport: Scene viewport resized to 897x902, mode Windowed.
+[2022.09.07-20.40.06:861][398]LogViewport: Scene viewport resized to 830x902, mode Windowed.
+[2022.09.07-20.40.06:905][400]LogViewport: Scene viewport resized to 806x902, mode Windowed.
+[2022.09.07-20.40.06:947][402]LogViewport: Scene viewport resized to 802x902, mode Windowed.
+[2022.09.07-20.40.38:847][264]LogContentBrowser: Attempting asset rename: MI_GunN3_Ske -> GW_23_GunN3_Skeleton
+[2022.09.07-20.40.38:882][264]LogMetaData: Removing '/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton.GW_23_GunN3_Skeleton' ref from Metadata '/Game/FPWeapon/Mesh/HomeMade/GunN3/MI_GunN3_Ske.PackageMetaData'
+[2022.09.07-20.40.39:396][264]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3
+[2022.09.07-20.40.39:401][264]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN3C4BC559941CA9CA66BE22FA156BE13E6.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.uasset'
+[2022.09.07-20.40.39:424][264]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton
+[2022.09.07-20.40.39:424][264]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN3_Skeleton470A1BD8438EC192985B9FA5E305A209.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton.uasset'
+[2022.09.07-20.40.39:498][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.09.07-20.40.39:544][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.09.07-20.40.39:587][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.09.07-20.40.39:600][264]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.07-20.40.39:600][264]LogContentValidation: Display: Validating Skeleton /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton.GW_23_GunN3_Skeleton
+[2022.09.07-20.40.39:600][264]LogContentValidation: Display: Validating SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.40.52:535][671]LogEditorFactories: Performing atomic reimport of [D:/GameWeek 22_23/GW_23_GunN3.fbx]
+[2022.09.07-20.40.52:545][671]LogFbx: Loading FBX Scene from D:/GameWeek 22_23/GW_23_GunN3.fbx
+[2022.09.07-20.40.52:590][671]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.40.52:714][671]LogFbx: Valid bind pose for Pose (skinCluster1) - GunN3
+[2022.09.07-20.40.52:718][671]LogFbx: Triangulating skeletal mesh GunN3
+[2022.09.07-20.40.52:809][671]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.40.52:863][671]LogSkeletalMesh: Section 0: Material=0, 600 triangles
+[2022.09.07-20.40.52:863][671]LogSkeletalMesh: Section 1: Material=1, 876 triangles
+[2022.09.07-20.40.52:863][671]LogSkeletalMesh: Section 2: Material=2, 1306 triangles
+[2022.09.07-20.40.52:894][671]LogEditorFactories: -- imported successfully
+[2022.09.07-20.40.52:912][671]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN3...
+[2022.09.07-20.40.52:912][671]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN3) ...
+[2022.09.07-20.40.52:949][671]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.40.56:126][712]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.40.56:127][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.40.56:154][712]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.07-20.40.56:615][712]LogViewport: Scene viewport resized to 839x805, mode Windowed.
+[2022.09.07-20.41.22:102][722]LogEditorFactories: Performing atomic reimport of [D:/GameWeek 22_23/GW_23_GunN3.fbx]
+[2022.09.07-20.41.22:112][722]LogFbx: Loading FBX Scene from D:/GameWeek 22_23/GW_23_GunN3.fbx
+[2022.09.07-20.41.22:123][722]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.41.22:189][722]LogFbx: Valid bind pose for Pose (skinCluster1) - GunN3
+[2022.09.07-20.41.22:194][722]LogFbx: Triangulating skeletal mesh GunN3
+[2022.09.07-20.41.22:282][722]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.41.22:367][722]LogSkeletalMesh: Section 0: Material=0, 600 triangles
+[2022.09.07-20.41.22:367][722]LogSkeletalMesh: Section 1: Material=1, 876 triangles
+[2022.09.07-20.41.22:367][722]LogSkeletalMesh: Section 2: Material=2, 1306 triangles
+[2022.09.07-20.41.22:375][722]LogEditorFactories: -- imported successfully
+[2022.09.07-20.41.22:414][722]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN3...
+[2022.09.07-20.41.22:414][722]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN3) ...
+[2022.09.07-20.41.22:599][723]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.41.24:587][811]LogSlate: Window 'GW_23_GunN3' being destroyed
+[2022.09.07-20.41.24:592][811]LogSlate: Window 'GW_23_GunN3' being destroyed
+[2022.09.07-20.41.24:614][811]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.41.24:614][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.41.24:869][811]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.41.24:869][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.41.28:553][992]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.07-20.41.28:553][992]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.07-20.41.30:012][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.09.07-20.41.31:174][ 74]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.07-20.41.31:258][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.09.07-20.41.31:290][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.09.07-20.41.31:314][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.07-20.41.34:339][150]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\GameWeek 22_23\GW_23_GunN3.fbx)
+[2022.09.07-20.41.34:346][150]LogFbx: Loading FBX Scene from D:\GameWeek 22_23\GW_23_GunN3.fbx
+[2022.09.07-20.41.34:354][150]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.41.46:311][150]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.07-20.41.46:353][150]LogFbx: Valid bind pose for Pose (skinCluster1) - GunN3
+[2022.09.07-20.41.46:357][150]LogFbx: Triangulating skeletal mesh GunN3
+[2022.09.07-20.41.46:421][150]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.41.46:481][150]LogSkeletalMesh: Section 0: Material=0, 600 triangles
+[2022.09.07-20.41.46:481][150]LogSkeletalMesh: Section 1: Material=1, 876 triangles
+[2022.09.07-20.41.46:481][150]LogSkeletalMesh: Section 2: Material=2, 1306 triangles
+[2022.09.07-20.41.46:502][150]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN3...
+[2022.09.07-20.41.46:502][150]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN3) ...
+[2022.09.07-20.41.46:543][150]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.41.48:897][276]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.41.48:898][276]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.41.48:922][276]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.07-20.41.49:310][276]LogViewport: Scene viewport resized to 839x805, mode Windowed.
+[2022.09.07-20.41.49:724][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.09.07-20.41.49:824][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/KW/DPO7ZKNEKREY4TDXRRNDIU_Auto1
+[2022.09.07-20.41.49:829][285]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/DPO7ZKNEKREY4TDXRRNDIU_Auto1654139CF47A48A90B69F9EAFA0AAD8E1.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/KW/DPO7ZKNEKREY4TDXRRNDIU_Auto1.uasset'
+[2022.09.07-20.41.49:848][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5_Auto1
+[2022.09.07-20.41.49:853][285]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/EAHCBN229IT8APJO305AH5_Auto124B107074E0102EA45DDC89F370EFC28.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5_Auto1.uasset'
+[2022.09.07-20.41.49:866][285]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.170
+[2022.09.07-20.41.49:866][285]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.170
+[2022.09.07-20.41.50:089][285]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_Rifle] ([2] browsable assets)...
+[2022.09.07-20.41.50:123][285]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle]
+[2022.09.07-20.41.50:123][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_Rifle]
+[2022.09.07-20.41.50:340][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Rifle_Auto1
+[2022.09.07-20.41.50:340][285]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/BP_Rifle_Auto14E3BEC3D456C99C898C21A9FC987909B.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Rifle_Auto1.uasset'
+[2022.09.07-20.41.50:461][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3] ([1] browsable assets)...
+[2022.09.07-20.41.50:469][285]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3]
+[2022.09.07-20.41.50:469][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3]
+[2022.09.07-20.41.50:562][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Auto1
+[2022.09.07-20.41.50:562][285]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN3_Auto1FACBE5C346C017ECF034159EC8252069.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/Autosaves/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Auto1.uasset'
+[2022.09.07-20.41.50:567][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton] ([1] browsable assets)...
+[2022.09.07-20.41.50:574][285]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton.GW_23_GunN3_Skeleton]
+[2022.09.07-20.41.50:574][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton]
+[2022.09.07-20.41.50:580][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton_Auto1
+[2022.09.07-20.41.50:580][285]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN3_Skeleton_Auto10D416995497CDDC37B48CDA285849146.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/Autosaves/Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton_Auto1.uasset'
+[2022.09.07-20.41.50:584][285]LogFileHelpers: Auto-saving content packages took 0.718
+[2022.09.07-20.41.58:229][611]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3
+[2022.09.07-20.41.58:229][611]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN3DAEF1B39417322AE012647976701A6A3.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.uasset'
+[2022.09.07-20.41.58:246][611]AssetCheck: New page: Asset Save: GW_23_GunN3
+[2022.09.07-20.41.58:247][611]LogContentValidation: Display: Validating SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.42.00:694][723]LogSlate: Window 'GW_23_GunN3' being destroyed
+[2022.09.07-20.42.00:701][723]LogSlate: Window 'GW_23_GunN3' being destroyed
+[2022.09.07-20.42.00:703][723]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.42.00:703][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.42.06:085][ 29]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.42.06:086][ 29]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.42.06:112][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.07-20.42.06:573][ 29]LogViewport: Scene viewport resized to 839x805, mode Windowed.
+[2022.09.07-20.42.08:476][104]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3
+[2022.09.07-20.42.08:482][104]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN3AAA181E84A81858FF0D4C49A9D6AFF4F.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.uasset'
+[2022.09.07-20.42.08:511][104]AssetCheck: New page: Asset Save: GW_23_GunN3
+[2022.09.07-20.42.08:512][104]LogContentValidation: Display: Validating SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.42.26:566][646]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+[2022.09.07-20.42.26:566][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.42.29:496][713]BlueprintLog: New page: Compile BP_Rifle
+[2022.09.07-20.42.29:616][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2022.09.07-20.42.30:331][734]LogViewport: Scene viewport resized to 839x642, mode Windowed.
+[2022.09.07-20.42.31:686][777]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.07-20.42.40:494][136]BlueprintLog: New page: Compile BP_Rifle
+[2022.09.07-20.42.40:587][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.09.07-20.42.40:779][137]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.07-20.42.41:256][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Rifle" FILE="../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FirstPerson/Blueprints/BP_Rifle.uasset" SILENT=true
+[2022.09.07-20.42.41:480][155]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Rifle
+[2022.09.07-20.42.41:485][155]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/BP_Rifle4CCE38D5419788C684F6F696F07C777C.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FirstPerson/Blueprints/BP_Rifle.uasset'
+[2022.09.07-20.42.41:517][155]AssetCheck: New page: Asset Save: BP_Rifle
+[2022.09.07-20.42.41:517][155]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+[2022.09.07-20.42.43:370][240]LogSlate: Window 'BP_Rifle' being destroyed
+[2022.09.07-20.42.43:376][240]LogSlate: Window 'BP_Rifle' being destroyed
+[2022.09.07-20.42.43:378][240]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.42.43:378][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.42.43:739][240]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.42.43:739][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.42.45:470][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.09.07-20.42.47:745][335]LogSlate: Window 'Save Content' being destroyed
+[2022.09.07-20.42.47:886][335]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5
+[2022.09.07-20.42.47:890][335]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/EAHCBN229IT8APJO305AH5244DDAE346B3424492EEC0A7DA5A0F14.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
+[2022.09.07-20.42.47:906][335]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/KW/DPO7ZKNEKREY4TDXRRNDIU
+[2022.09.07-20.42.47:910][335]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/DPO7ZKNEKREY4TDXRRNDIU51C287BA4D3449DFC3FEB6A754E561CA.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/KW/DPO7ZKNEKREY4TDXRRNDIU.uasset'
+[2022.09.07-20.42.47:925][335]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton
+[2022.09.07-20.42.47:925][335]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN3_SkeletonB7E2D7444BF1745E396B05BDF2867FC7.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton.uasset'
+[2022.09.07-20.42.47:942][335]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.07-20.42.47:942][335]LogContentValidation: Display: Validating Skeleton /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3_Skeleton.GW_23_GunN3_Skeleton
+[2022.09.07-20.42.47:942][335]LogContentValidation: Display: Validating BP_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_1
+[2022.09.07-20.42.47:942][335]LogContentValidation: Display: Validating BP_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_70B5E8A389223D3401_1618116807
+[2022.09.07-20.43.08:223][610]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+[2022.09.07-20.43.08:224][610]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.43.10:828][707]LogViewport: Scene viewport resized to 839x642, mode Windowed.
+[2022.09.07-20.43.12:559][785]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.07-20.43.23:515][334]BlueprintLog: New page: Compile BP_Rifle
+[2022.09.07-20.43.23:596][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.09.07-20.43.23:765][335]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.07-20.43.24:180][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Rifle" FILE="../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FirstPerson/Blueprints/BP_Rifle.uasset" SILENT=true
+[2022.09.07-20.43.24:400][352]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Rifle
+[2022.09.07-20.43.24:405][352]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/BP_Rifle30BE5F54431D14B92F568E9206EFB326.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FirstPerson/Blueprints/BP_Rifle.uasset'
+[2022.09.07-20.43.24:431][352]AssetCheck: New page: Asset Save: BP_Rifle
+[2022.09.07-20.43.24:431][352]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+[2022.09.07-20.43.29:938][555]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.09.07-20.43.29:980][555]LogWorldPartition: Display: GenerateStreaming started...
+[2022.09.07-20.43.29:980][555]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.09.07-20.43.29:980][555]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.07-20.43.29:980][555]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.09.07-20.43.29:980][555]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.09.07-20.43.29:980][555]LogWorldPartition: Display: GetPartitionedActors took 131 us
+[2022.09.07-20.43.29:981][555]LogWorldPartition: Display: GenerateStreaming took 762 us
+[2022.09.07-20.43.29:981][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.07-20.43.29:981][555]PIE: New page: PIE session: FirstPersonMap (7 sept. 2022 12 h 43 min 29 s)
+[2022.09.07-20.43.29:982][555]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.07-20.43.29:998][555]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.09.07-20.43.29:999][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016981s)
+[2022.09.07-20.43.29:999][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.017108s)
+[2022.09.07-20.43.29:999][555]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.43.30:000][555]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.09.07-20.43.30:001][555]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.09.07-20.43.30:001][555]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.09.07-20.43.30:004][555]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2022.09.07-20.43.30:005][555]LogPlayLevel: PIE: World Init took: (0.005607s)
+[2022.09.07-20.43.30:054][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.09.07-20.43.30:059][555]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.09.07-20.43.30:060][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.07-20.43.30:060][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.07-20.43.30:060][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.07-20.43.30:060][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.07-20.43.30:060][555]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.07-20.43.30:060][555]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.07-20.43.30:060][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.07-20.43.30:060][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.07-20.43.30:061][555]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.07-20.43.30:061][555]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.07-20.43.30:061][555]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.07-20.43.30:064][555]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.07-20.43.30:155][555]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2022.09.07-20.43.30:156][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.07-20.43.30:156][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.07-20.43.30:156][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.07-20.43.30:158][555]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.09.07-20.43.30:158][555]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.09.07-20.43.30:160][555]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.09.07-20.43.30:160][555]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.09.07-20.43.30:161][555]LogInit: FAudioDevice initialized.
+[2022.09.07-20.43.30:161][555]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2022.09.07-20.43.30:217][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.07-20.43.30:218][555]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.09.07-20.43.30:223][555]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2022.09.07-16.43.30
+[2022.09.07-20.43.30:223][555]LogWorld: Bringing up level for play took: 0.005572
+[2022.09.07-20.43.30:228][555]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2022.09.07-20.43.30:232][555]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.09.07-20.43.30:232][555]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.09.07-20.43.30:237][555]PIE: Server logged in
+[2022.09.07-20.43.30:241][555]PIE: Play in editor total start time 0,272 seconds.
+[2022.09.07-20.43.30:271][555]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2022.09.07-20.43.55:486][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.07-20.43.55:486][911]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.09.07-20.43.55:487][911]LogSlate: Window 'GunzBlazing_GameWeek Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.09.07-20.43.55:493][911]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.43.55:494][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.43.55:511][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.07-20.43.55:517][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.43.55:567][911]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.09.07-20.43.55:569][911]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.09.07-20.43.55:622][911]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2022.09.07-20.43.56:219][912]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.09.07-20.43.56:287][912]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.07-20.44.04:332][312]BlueprintLog: New page: Compile BP_Rifle
+[2022.09.07-20.44.04:414][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.09.07-20.44.04:565][313]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.09.07-20.44.05:022][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Blueprints/BP_Rifle" FILE="../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FirstPerson/Blueprints/BP_Rifle.uasset" SILENT=true
+[2022.09.07-20.44.05:209][333]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Rifle
+[2022.09.07-20.44.05:213][333]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/BP_RifleC5F1BD334B796AFDEA98398C23B129DE.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FirstPerson/Blueprints/BP_Rifle.uasset'
+[2022.09.07-20.44.05:239][333]AssetCheck: New page: Asset Save: BP_Rifle
+[2022.09.07-20.44.05:239][333]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+[2022.09.07-20.44.06:840][419]LogSlate: Window 'BP_Rifle' being destroyed
+[2022.09.07-20.44.06:847][419]LogSlate: Window 'BP_Rifle' being destroyed
+[2022.09.07-20.44.06:868][419]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.44.06:868][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.44.55:536][236]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.44.55:537][236]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.44.55:567][236]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.07-20.45.08:138][236]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2022.09.07-20.45.08:138][236]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [8958ms] waiting for h/w. InstanceID=1
+[2022.09.07-20.45.08:138][236]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049957s
+[2022.09.07-20.45.08:202][236]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.005089s (0.217677s overbudget)
+[2022.09.07-20.45.08:276][236]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24028
+[2022.09.07-20.45.08:276][236]LogViewport: Scene viewport resized to 839x805, mode Windowed.
+[2022.09.07-20.45.08:558][238]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{cec7b13b-2f2c-41cc-a178-65f94ffcb20a}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=166.78
+[2022.09.07-20.45.08:558][238]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.09.07-20.45.08:573][239]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.09.07-20.45.57:262][641]LogSlate: Window 'GW_23_GunN3' being destroyed
+[2022.09.07-20.45.57:269][641]LogSlate: Window 'GW_23_GunN3' being destroyed
+[2022.09.07-20.45.57:271][641]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.45.57:271][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.49.19:428][ 35]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.49.19:429][ 35]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.49.19:461][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.07-20.49.22:418][ 35]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2022.09.07-20.49.22:482][ 35]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.005823s (1.054698s overbudget)
+[2022.09.07-20.49.22:559][ 35]LogViewport: Scene viewport resized to 839x805, mode Windowed.
+[2022.09.07-20.49.38:821][840]LogSlate: Window 'GW_23_GunN1' being destroyed
+[2022.09.07-20.49.38:825][840]LogSlate: Window 'GW_23_GunN1' being destroyed
+[2022.09.07-20.49.38:826][840]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.49.38:826][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.49.44:253][132]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN3/GW_23_GunN3.GW_23_GunN3
+[2022.09.07-20.49.44:253][132]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.49.44:284][132]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.07-20.49.44:746][132]LogViewport: Scene viewport resized to 839x805, mode Windowed.
+[2022.09.07-20.50.25:031][127]LogSlate: Window 'GW_23_GunN3' being destroyed
+[2022.09.07-20.50.25:036][127]LogSlate: Window 'GW_23_GunN3' being destroyed
+[2022.09.07-20.50.25:037][127]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.50.25:038][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.07-20.50.28:003][273]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.50.28:004][273]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.07-20.50.28:012][273]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.07-20.50.29:095][273]LogViewport: Scene viewport resized to 839x805, mode Windowed.
+[2022.09.07-20.50.30:987][378]LogEditorFactories: Performing atomic reimport of [D:/GameWeek 22_23/GW_23_GunN1.fbx]
+[2022.09.07-20.50.30:992][378]LogFbx: Loading FBX Scene from D:/GameWeek 22_23/GW_23_GunN1.fbx
+[2022.09.07-20.50.30:998][378]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.50.31:050][378]LogFbx: Valid bind pose for Pose (skinCluster1) - BubbleGun1
+[2022.09.07-20.50.31:053][378]LogFbx: Triangulating skeletal mesh BubbleGun1
+[2022.09.07-20.50.31:111][378]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.50.31:172][378]LogSkeletalMesh: Section 0: Material=0, 494 triangles
+[2022.09.07-20.50.31:172][378]LogSkeletalMesh: Section 1: Material=1, 612 triangles
+[2022.09.07-20.50.31:172][378]LogSkeletalMesh: Section 2: Material=2, 716 triangles
+[2022.09.07-20.50.31:172][378]LogSkeletalMesh: Section 3: Material=3, 1220 triangles
+[2022.09.07-20.50.31:179][378]LogEditorFactories: -- imported successfully
+[2022.09.07-20.50.31:213][378]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN1...
+[2022.09.07-20.50.31:213][378]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN1) ...
+[2022.09.07-20.50.31:326][379]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.50.35:380][583]LogEditorFactories: Performing atomic reimport of [D:/GameWeek 22_23/GW_23_GunN1.fbx]
+[2022.09.07-20.50.35:387][583]LogFbx: Loading FBX Scene from D:/GameWeek 22_23/GW_23_GunN1.fbx
+[2022.09.07-20.50.35:394][583]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.50.35:451][583]LogFbx: Valid bind pose for Pose (skinCluster1) - BubbleGun1
+[2022.09.07-20.50.35:455][583]LogFbx: Triangulating skeletal mesh BubbleGun1
+[2022.09.07-20.50.35:556][583]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.50.35:649][583]LogSkeletalMesh: Section 0: Material=0, 494 triangles
+[2022.09.07-20.50.35:649][583]LogSkeletalMesh: Section 1: Material=1, 612 triangles
+[2022.09.07-20.50.35:649][583]LogSkeletalMesh: Section 2: Material=2, 716 triangles
+[2022.09.07-20.50.35:649][583]LogSkeletalMesh: Section 3: Material=3, 1220 triangles
+[2022.09.07-20.50.35:659][583]LogEditorFactories: -- imported successfully
+[2022.09.07-20.50.35:704][583]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN1...
+[2022.09.07-20.50.35:704][583]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN1) ...
+[2022.09.07-20.50.35:895][584]LogSkeletalMesh: Built Skeletal Mesh [0.10s] /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.50.42:161][742]LogEditorFactories: Performing atomic reimport of [D:/GameWeek 22_23/GW_23_GunN1.fbx]
+[2022.09.07-20.50.42:168][742]LogFbx: Loading FBX Scene from D:/GameWeek 22_23/GW_23_GunN1.fbx
+[2022.09.07-20.50.42:174][742]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.50.42:222][742]LogFbx: Valid bind pose for Pose (skinCluster1) - BubbleGun1
+[2022.09.07-20.50.42:226][742]LogFbx: Triangulating skeletal mesh BubbleGun1
+[2022.09.07-20.50.42:284][742]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.50.42:344][742]LogSkeletalMesh: Section 0: Material=0, 494 triangles
+[2022.09.07-20.50.42:344][742]LogSkeletalMesh: Section 1: Material=1, 612 triangles
+[2022.09.07-20.50.42:344][742]LogSkeletalMesh: Section 2: Material=2, 716 triangles
+[2022.09.07-20.50.42:344][742]LogSkeletalMesh: Section 3: Material=3, 1220 triangles
+[2022.09.07-20.50.42:348][742]LogEditorFactories: -- imported successfully
+[2022.09.07-20.50.42:367][742]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN1...
+[2022.09.07-20.50.42:367][742]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN1) ...
+[2022.09.07-20.50.42:409][742]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.51.34:482][143]LogEditorFactories: Performing atomic reimport of [D:/GameWeek 22_23/GW_23_GunN1.fbx]
+[2022.09.07-20.51.34:487][143]LogFbx: Loading FBX Scene from D:/GameWeek 22_23/GW_23_GunN1.fbx
+[2022.09.07-20.51.34:493][143]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.51.34:543][143]LogFbx: Valid bind pose for Pose (skinCluster1) - BubbleGun1
+[2022.09.07-20.51.34:547][143]LogFbx: Triangulating skeletal mesh BubbleGun1
+[2022.09.07-20.51.34:610][143]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.51.34:670][143]LogSkeletalMesh: Section 0: Material=0, 494 triangles
+[2022.09.07-20.51.34:670][143]LogSkeletalMesh: Section 1: Material=1, 612 triangles
+[2022.09.07-20.51.34:670][143]LogSkeletalMesh: Section 2: Material=2, 716 triangles
+[2022.09.07-20.51.34:670][143]LogSkeletalMesh: Section 3: Material=3, 1220 triangles
+[2022.09.07-20.51.34:678][143]LogEditorFactories: -- imported successfully
+[2022.09.07-20.51.34:715][143]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN1...
+[2022.09.07-20.51.34:715][143]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN1) ...
+[2022.09.07-20.51.34:824][144]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.52.16:659][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.09.07-20.52.16:667][375]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/KW/DPO7ZKNEKREY4TDXRRNDIU_Auto2
+[2022.09.07-20.52.16:668][375]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/DPO7ZKNEKREY4TDXRRNDIU_Auto2055FAD2641C11C8349B751BFF88AB0CB.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/KW/DPO7ZKNEKREY4TDXRRNDIU_Auto2.uasset'
+[2022.09.07-20.52.16:675][375]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5_Auto2
+[2022.09.07-20.52.16:675][375]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/EAHCBN229IT8APJO305AH5_Auto25EA0B5AF4BF7042E9887C993CF8A91C0.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5_Auto2.uasset'
+[2022.09.07-20.52.16:732][375]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.100
+[2022.09.07-20.52.16:732][375]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.100
+[2022.09.07-20.52.16:805][375]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1] ([1] browsable assets)...
+[2022.09.07-20.52.16:868][375]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1]
+[2022.09.07-20.52.16:868][375]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1]
+[2022.09.07-20.52.16:932][375]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1_Auto2
+[2022.09.07-20.52.16:932][375]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN1_Auto25718FFD049FC7F172F2C00BCE0517388.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/Autosaves/Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1_Auto2.uasset'
+[2022.09.07-20.52.16:935][375]LogFileHelpers: Auto-saving content packages took 0.204
+[2022.09.07-20.53.03:971][420]LogEditorFactories: Performing atomic reimport of [D:/GameWeek 22_23/GW_23_GunN1.fbx]
+[2022.09.07-20.53.03:976][420]LogFbx: Loading FBX Scene from D:/GameWeek 22_23/GW_23_GunN1.fbx
+[2022.09.07-20.53.03:983][420]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.53.04:036][420]LogFbx: Valid bind pose for Pose (skinCluster1) - BubbleGun1
+[2022.09.07-20.53.04:040][420]LogFbx: Triangulating skeletal mesh BubbleGun1
+[2022.09.07-20.53.04:098][420]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.53.04:157][420]LogSkeletalMesh: Section 0: Material=0, 494 triangles
+[2022.09.07-20.53.04:157][420]LogSkeletalMesh: Section 1: Material=1, 612 triangles
+[2022.09.07-20.53.04:157][420]LogSkeletalMesh: Section 2: Material=2, 716 triangles
+[2022.09.07-20.53.04:157][420]LogSkeletalMesh: Section 3: Material=3, 1220 triangles
+[2022.09.07-20.53.04:164][420]LogEditorFactories: -- imported successfully
+[2022.09.07-20.53.04:197][420]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN1...
+[2022.09.07-20.53.04:197][420]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN1) ...
+[2022.09.07-20.53.04:309][421]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.53.42:342][709]LogEditorFactories: Performing atomic reimport of [D:/GameWeek 22_23/GW_23_GunN1.fbx]
+[2022.09.07-20.53.42:349][709]LogFbx: Loading FBX Scene from D:/GameWeek 22_23/GW_23_GunN1.fbx
+[2022.09.07-20.53.42:356][709]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.07-20.53.42:407][709]LogFbx: Valid bind pose for Pose (skinCluster1) - BubbleGun
+[2022.09.07-20.53.42:411][709]LogFbx: Triangulating skeletal mesh BubbleGun
+[2022.09.07-20.53.42:493][709]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2022.09.07-20.53.42:575][709]LogSkeletalMesh: Section 0: Material=0, 494 triangles
+[2022.09.07-20.53.42:575][709]LogSkeletalMesh: Section 1: Material=1, 612 triangles
+[2022.09.07-20.53.42:575][709]LogSkeletalMesh: Section 2: Material=2, 1908 triangles
+[2022.09.07-20.53.42:575][709]LogSkeletalMesh: Section 3: Material=3, 1220 triangles
+[2022.09.07-20.53.44:885][709]LogSlate: Window 'Message' being destroyed
+[2022.09.07-20.53.44:890][709]Message dialog closed, result: Yes, title: Message, text: FAILED TO MERGE BONES:
+
+ This could happen if significant hierarchical changes have been made
+e.g. inserting a bone between nodes.
+Would you like to regenerate the Skeleton from this mesh?
+
+***WARNING: THIS MAY INVALIDATE OR REQUIRE RECOMPRESSION OF ANIMATION DATA.***
+
+[2022.09.07-20.53.46:218][709]LogSlate: Window 'Message' being destroyed
+[2022.09.07-20.53.46:222][709]Message dialog closed, result: Yes, title: Message, text: Would you like to merge all SkeletalMeshes using this skeleton to ensure all bones are merged? This will require to load those SkeletalMeshes.
+[2022.09.07-20.53.46:413][709]LogEditorFactories: -- imported successfully
+[2022.09.07-20.53.46:447][709]LogSkeletalMesh: Building Skeletal Mesh GW_23_GunN1...
+[2022.09.07-20.53.46:447][709]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (GW_23_GunN1) ...
+[2022.09.07-20.53.46:609][709]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.53.53:082][ 19]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1
+[2022.09.07-20.53.53:085][ 19]LogSavePackage: Moving '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Saved/GW_23_GunN19714F73741A9724482751DA4810AF1BE.tmp' to '../../../../../GameWeek 22_23/GameWeek2022/GunzBlazing_GameWeek/Content/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.uasset'
+[2022.09.07-20.53.53:109][ 19]AssetCheck: New page: Asset Save: GW_23_GunN1
+[2022.09.07-20.53.53:110][ 19]LogContentValidation: Display: Validating SkeletalMesh /Game/FPWeapon/Mesh/HomeMade/GunN1/GW_23_GunN1.GW_23_GunN1
+[2022.09.07-20.53.54:581][104]LogSlate: Window 'GW_23_GunN1' being destroyed
+[2022.09.07-20.53.54:585][104]LogSlate: Window 'GW_23_GunN1' being destroyed
+[2022.09.07-20.53.54:586][104]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.09.07-20.53.54:586][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
